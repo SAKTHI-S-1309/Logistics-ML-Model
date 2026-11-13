@@ -1,0 +1,5 @@
+Model,Best_CV_PR_AUC,Best_Parameters
+Logistic Regression,0.6191397414450011,"{'classifier__solver': 'lbfgs', 'classifier__C': 0.1}"
+XGBoost,0.6187377629202192,"{'classifier__subsample': 0.8, 'classifier__n_estimators': 300, 'classifier__max_depth': 3, 'classifier__learning_rate': 0.01, 'classifier__colsample_bytree': 0.8}"
+Random Forest,0.6131204505241828,"{'classifier__n_estimators': 100, 'classifier__min_samples_split': 10, 'classifier__min_samples_leaf': 4, 'classifier__max_features': 'log2', 'classifier__max_depth': 10}"
+Decision Tree,0.5897990778215265,"{'classifier__min_samples_split': 10, 'classifier__min_samples_leaf': 10, 'classifier__max_depth': 5}"

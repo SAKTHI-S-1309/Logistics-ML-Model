@@ -1,0 +1,9 @@
+{
+    "best_model": "Logistic Regression",
+    "best_cv_pr_auc": 0.6191397414450011,
+    "training_records": 40000,
+    "input_features": 15,
+    "randomized_search_iterations": 8,
+    "cross_validation_splits": 3,
+    "optimization_metric": "Average Precision (PR-AUC)"
+}

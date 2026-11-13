@@ -1,0 +1,68 @@
+{
+    "reference_records": 40000,
+    "current_records": 10000,
+    "features_monitored": 15,
+    "features_with_drift": 1,
+    "drift_results": {
+        "origin_hub": {
+            "psi": 0.001488,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "destination_hub": {
+            "psi": 0.000944,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "route_distance_km": {
+            "psi": 0.001018,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "vehicle_type": {
+            "psi": 0.00011,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "traffic_level": {
+            "psi": 0.000103,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "weather_condition": {
+            "psi": 4.6e-05,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "ambient_temperature_c": {
+            "psi": 0.001327,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "humidity_percent": {
+            "psi": 0.00118,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "package_temperature_c": {
+            "psi": 0.000885,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "planned_transit_hours": {
+            "psi": 0.000994,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "dispatch_year": {
+            "psi": 0.0,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "dispatch_month": {
+            "psi": 14.986126,
+            "status": "SIGNIFICANT DRIFT"
+        },
+        "dispatch_day": {
+            "psi": 0.068071,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "dispatch_hour": {
+            "psi": 0.001838,
+            "status": "NO SIGNIFICANT DRIFT"
+        },
+        "dispatch_day_of_week": {
+            "psi": 0.004841,
+            "status": "NO SIGNIFICANT DRIFT"
+        }
+    }
+}

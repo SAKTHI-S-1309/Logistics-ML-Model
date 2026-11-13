@@ -1,0 +1,40 @@
+{
+    "model": "Logistic Regression",
+    "test_records": 10000,
+    "business_cost_assumptions": {
+        "false_negative_cost": 1000,
+        "false_positive_cost": 200
+    },
+    "baseline_pr_auc": 0.2654,
+    "improvement_over_baseline_percent": 133.82265764437943,
+    "threshold_comparison": {
+        "Default_0.50": {
+            "threshold": 0.5,
+            "accuracy": 0.7203,
+            "precision": 0.4821115836877658,
+            "recall": 0.7260738507912585,
+            "f1_score": 0.5794617350774319,
+            "roc_auc": 0.7986656328970176,
+            "pr_auc": 0.6205653333881831,
+            "true_negatives": 5276,
+            "false_positives": 2070,
+            "false_negatives": 727,
+            "true_positives": 1927,
+            "estimated_business_cost": 1141000
+        },
+        "Optimized": {
+            "threshold": 0.33,
+            "accuracy": 0.6412,
+            "precision": 0.41465643274853803,
+            "recall": 0.8549359457422758,
+            "f1_score": 0.5584543440807285,
+            "roc_auc": 0.7986656328970176,
+            "pr_auc": 0.6205653333881831,
+            "true_negatives": 4143,
+            "false_positives": 3203,
+            "false_negatives": 385,
+            "true_positives": 2269,
+            "estimated_business_cost": 1025600
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "selected_threshold": 0.33,
+    "false_negative_cost_inr": 1000,
+    "false_positive_cost_inr": 200,
+    "estimated_validation_cost_inr": 3013800,
+    "validation_records": 30000,
+    "validation_pr_auc": 0.6182959511754254,
+    "selection_method": "Minimum estimated business cost",
+    "validation_method": "TimeSeriesSplit out-of-fold predictions"
+}
